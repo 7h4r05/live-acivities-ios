@@ -1,0 +1,16 @@
+<ion-item
+  *ngIf="message"
+>
+  <div slot="start dot"></div>
+  <ion-label class="ion-text-wrap">
+    <h2>
+      {{ message.title }}
+    </h2>
+    <h3>Distance {{ message.distance }}m</h3>
+    <h3>Time {{ message.expectedTimeInMinutes }}min</h3>
+
+    <ion-button primary (click)="start(message)">
+      Start
+    </ion-button>
+  </ion-label>
+</ion-item>

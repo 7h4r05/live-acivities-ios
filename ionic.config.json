@@ -1,0 +1,7 @@
+{
+  "name": "live-activities",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
